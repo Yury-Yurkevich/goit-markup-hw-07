@@ -1,0 +1,14 @@
+.footer {
+    display: block;
+    background-color: var(--background-color-dark);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}

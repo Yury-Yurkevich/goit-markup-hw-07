@@ -1,0 +1,58 @@
+.address {
+    width: 231px;
+    font-style: normal;
+    margin-top: 20px;
+}
+.address__list {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.address__link {
+    line-height: 1.7;
+    color: #FFFFFF;
+
+    transition-property: color;
+    transition-duration: var(--trns-fast);
+
+    &:hover,
+    &:focus {
+        color: var(--button-color-blue);
+    }
+}
+.address__mail-item {
+    margin-top: 9px;
+}
+.address__mail-link {
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color-gray);
+
+    transition-property: color;
+    transition-duration: var(--trns-fast);
+
+    &:hover,
+    &:focus{
+        color: var(--button-color-blue);
+    }
+}
+.address__phone-item {
+    margin-top: 9px;
+}
+.address__phone-link {
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color-gray);
+
+    transition-property: color;
+    transition-duration: var(--trns-fast);
+
+    &:hover,
+    &:focus {
+        color: var(--button-color-blue);
+    }
+}
+
+
