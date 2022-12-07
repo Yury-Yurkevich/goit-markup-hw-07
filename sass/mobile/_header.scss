@@ -1,0 +1,82 @@
+.header {
+    background-color: var(--background-color-white);
+    border-bottom: 1px solid #ECECEC;
+}
+
+.header__container {
+    
+}
+
+.header__logo {
+   
+}
+
+.header__logo-text {
+    color: var(--logo-text-color-black);
+}
+
+/* nav */
+.header__nav {
+   
+}
+
+/*    Посилання на mail     */
+.header__contact {
+    
+}
+
+.header__mail-item {
+  
+}
+
+.header__icons {
+    transition-property: fill;
+    transition-duration: var(--trns-fast);
+}
+
+.header__mail-link {
+   
+    gap: 10px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color-gray);
+
+    transition-property: color;
+    transition-duration: var(--trns-fast);
+
+    &:hover,
+    &:focus {
+        color: var(--hover-focus-color-blue);
+    }
+
+    &:focus,
+    &:hover .header__icons {
+        fill: #188CE8;
+    }
+}
+
+.header__phone-item {
+    
+}
+
+.header__phone-link {
+    gap: 10px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color-gray);
+
+    transition-property: color;
+    transition-duration: var(--trns-fast);
+
+    &:hover,
+    &:focus {
+        color: var(--hover-focus-color-blue);
+    }
+
+    &:focus,
+    &:hover .header__icons {
+        fill: #188CE8;
+    }
+}
